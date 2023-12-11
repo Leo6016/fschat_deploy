@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=1 python vllm_worker.py --host 0.0.0.0 --port 21003 --model-path /mnt/sdb/models/chatglm3-6b --trust-remote-code --controller-address http:localhost//:21001 --worker-address http://localhost:21003 --model-names chatglm3 --log-dir /home/xgy/logs --gpus 1
+CUDA_VISIBLE_DEVICES=0,1,2,3 python hf_worker.py --host 122.224.74.10 --port 21003 --model-path /mnt/sdb/models/chatglm3-6b --controller-address http://122.224.74.10:21001 --worker-address http://122.224.74.10:21003 --model-names chatglm3 --log-dir /home/xgy/logs --gpus 1

@@ -1,0 +1,14 @@
+2023-11-30 14:23:47 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: /mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2
+2023-11-30 14:23:53 | INFO | general_worker | Loading the model ['embedding_general'] on worker ddb25908, worker type: general worker...
+2023-11-30 14:23:53 | INFO | general_worker | Register to controller
+2023-11-30 14:23:53 | ERROR | stderr | INFO:     Started server process [4172892]
+2023-11-30 14:23:53 | ERROR | stderr | INFO:     Waiting for application startup.
+2023-11-30 14:23:53 | ERROR | stderr | INFO:     Application startup complete.
+2023-11-30 14:23:53 | ERROR | stderr | INFO:     Uvicorn running on http://localhost:22002 (Press CTRL+C to quit)
+2023-11-30 14:24:23 | INFO | general_worker | Send heart beat. Models: ['embedding_general']. Semaphore: None. call_ct: 0. worker_id: ddb25908. 
+2023-11-30 14:24:53 | INFO | general_worker | Send heart beat. Models: ['embedding_general']. Semaphore: None. call_ct: 0. worker_id: ddb25908. 
+2023-11-30 14:25:23 | INFO | general_worker | Send heart beat. Models: ['embedding_general']. Semaphore: None. call_ct: 0. worker_id: ddb25908. 
+2023-11-30 14:25:30 | ERROR | stderr | INFO:     Shutting down
+2023-11-30 14:25:30 | ERROR | stderr | INFO:     Waiting for application shutdown.
+2023-11-30 14:25:30 | ERROR | stderr | INFO:     Application shutdown complete.
+2023-11-30 14:25:30 | ERROR | stderr | INFO:     Finished server process [4172892]

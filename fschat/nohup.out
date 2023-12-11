@@ -1,0 +1,402 @@
+2023-11-16 14:24:58 | INFO | controller | args: Namespace(host='122.224.74.10', port=20000, log_dir='/home/xgy/logs', ssl=False, name='local')
+2023-11-16 14:24:58 | INFO | controller | Daemon init sucess
+2023-11-16 14:24:58 | ERROR | stderr | INFO:     Started server process [2202811]
+2023-11-16 14:24:58 | ERROR | stderr | INFO:     Waiting for application startup.
+2023-11-16 14:24:58 | ERROR | stderr | INFO:     Application startup complete.
+2023-11-16 14:24:58 | ERROR | stderr | INFO:     Uvicorn running on http://122.224.74.10:20000 (Press CTRL+C to quit)
+2023-11-16 14:25:02 | INFO | stdout | 1
+2023-11-16 14:25:07 | INFO | stdout | 1
+2023-11-16 14:25:12 | INFO | stdout | 1
+2023-11-16 14:25:17 | INFO | stdout | 1
+2023-11-16 14:25:22 | INFO | stdout | 1
+2023-11-16 14:25:27 | INFO | stdout | 1
+2023-11-16 14:25:32 | INFO | stdout | 1
+2023-11-16 14:25:37 | INFO | stdout | 1
+2023-11-16 14:25:42 | INFO | stdout | 1
+2023-11-16 14:25:47 | INFO | stdout | 1
+2023-11-16 14:25:52 | INFO | stdout | 1
+2023-11-16 14:25:57 | INFO | stdout | 1
+2023-11-16 14:26:02 | INFO | stdout | 1
+2023-11-16 14:26:07 | INFO | stdout | 1
+2023-11-16 14:26:12 | INFO | stdout | 1
+2023-11-16 14:26:17 | INFO | stdout | 1
+2023-11-16 14:26:22 | INFO | stdout | 1
+2023-11-16 14:26:27 | INFO | stdout | 1
+2023-11-16 14:26:32 | INFO | stdout | 1
+2023-11-16 14:26:37 | INFO | stdout | 1
+2023-11-16 14:26:42 | INFO | stdout | 1
+2023-11-16 14:26:47 | INFO | stdout | 1
+2023-11-16 14:26:52 | INFO | stdout | 1
+2023-11-16 14:26:57 | INFO | stdout | 1
+2023-11-16 14:27:03 | INFO | stdout | 1
+2023-11-16 14:27:08 | INFO | stdout | 1
+2023-11-16 14:27:13 | INFO | stdout | 1
+2023-11-16 14:27:18 | INFO | stdout | 1
+2023-11-16 14:27:23 | INFO | stdout | 1
+2023-11-16 14:28:51 | INFO | controller | args: Namespace(host='122.224.74.10', port=20000, log_dir='/home/xgy/logs', ssl=False, name='local')
+2023-11-16 14:28:51 | INFO | controller | Daemon init sucess
+2023-11-16 14:28:51 | ERROR | stderr | INFO:     Started server process [2208671]
+2023-11-16 14:28:51 | ERROR | stderr | INFO:     Waiting for application startup.
+2023-11-16 14:28:51 | ERROR | stderr | INFO:     Application startup complete.
+2023-11-16 14:28:51 | ERROR | stderr | INFO:     Uvicorn running on http://122.224.74.10:20000 (Press CTRL+C to quit)
+2023-11-16 14:28:56 | INFO | stdout | {'model_name': 'e', 'host': '122.224.74.10', 'port': 21007}
+2023-11-16 14:28:56 | INFO | stdout | 1
+2023-11-16 14:28:56 | INFO | stdout | {'baichuan2_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116120.543967, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116119.2988815, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'baichuan_7B_chat_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116120.543967, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116119.2988815, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'embedding_general': {'worker_num': 2, '1': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116133.656671, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21004, 'worker-address': 'http://122.224.74.10:21004', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}, '2': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116121.2800987, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21007, 'worker-address': 'http://122.224.74.10:21007', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}}}
+2023-11-16 14:29:01 | INFO | stdout | 1
+2023-11-16 14:29:01 | INFO | stdout | {'baichuan2_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116120.543967, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116119.2988815, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'baichuan_7B_chat_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116120.543967, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116119.2988815, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'embedding_general': {'worker_num': 2, '1': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116133.656671, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21004, 'worker-address': 'http://122.224.74.10:21004', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}, '2': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116121.2800987, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21007, 'worker-address': 'http://122.224.74.10:21007', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}}}
+2023-11-16 14:29:06 | INFO | stdout | 1
+2023-11-16 14:29:06 | INFO | stdout | INFO:     122.224.74.10:43720 - "POST /deploy HTTP/1.1" 500 Internal Server Error
+2023-11-16 14:29:17 | INFO | stdout | {'model_name': 'e', 'host': '122.224.74.10', 'port': 21008}
+2023-11-16 14:29:17 | INFO | stdout | 1
+2023-11-16 14:29:17 | INFO | stdout | {'baichuan2_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116150.580753, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116149.3320215, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'baichuan_7B_chat_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116150.580753, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116149.3320215, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'embedding_general': {'worker_num': 2, '1': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116133.656671, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21004, 'worker-address': 'http://122.224.74.10:21004', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}, '2': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116151.3169537, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21007, 'worker-address': 'http://122.224.74.10:21007', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}}}
+2023-11-16 14:29:22 | INFO | stdout | 1
+2023-11-16 14:29:22 | INFO | stdout | {'baichuan2_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116150.580753, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116149.3320215, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'baichuan_7B_chat_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116150.580753, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116149.3320215, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'embedding_general': {'worker_num': 2, '1': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116133.656671, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21004, 'worker-address': 'http://122.224.74.10:21004', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}, '2': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116151.3169537, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21007, 'worker-address': 'http://122.224.74.10:21007', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}}}
+2023-11-16 14:29:27 | INFO | stdout | 1
+2023-11-16 14:29:27 | INFO | stdout | {'baichuan2_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116150.580753, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116149.3320215, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'baichuan_7B_chat_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116150.580753, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116149.3320215, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'embedding_general': {'worker_num': 3, '1': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116163.6739163, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21004, 'worker-address': 'http://122.224.74.10:21004', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}, '2': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116151.3169537, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21007, 'worker-address': 'http://122.224.74.10:21007', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}, '3': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116165.1283758, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21008, 'worker-address': 'http://122.224.74.10:21008', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}}}
+2023-11-16 14:29:32 | INFO | stdout | 1
+2023-11-16 14:29:32 | INFO | stdout | {'baichuan2_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116150.580753, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116149.3320215, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'baichuan_7B_chat_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116150.580753, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116149.3320215, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'embedding_general': {'worker_num': 3, '1': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116163.6739163, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21004, 'worker-address': 'http://122.224.74.10:21004', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}, '2': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116151.3169537, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21007, 'worker-address': 'http://122.224.74.10:21007', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}, '3': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116165.1283758, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21008, 'worker-address': 'http://122.224.74.10:21008', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}}}
+2023-11-16 14:29:37 | INFO | stdout | 1
+2023-11-16 14:29:37 | INFO | stdout | {'baichuan2_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116150.580753, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116149.3320215, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'baichuan_7B_chat_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116150.580753, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116149.3320215, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'embedding_general': {'worker_num': 3, '1': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116163.6739163, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21004, 'worker-address': 'http://122.224.74.10:21004', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}, '2': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116151.3169537, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21007, 'worker-address': 'http://122.224.74.10:21007', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}, '3': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116165.1283758, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21008, 'worker-address': 'http://122.224.74.10:21008', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}}}
+2023-11-16 14:29:42 | INFO | stdout | 1
+2023-11-16 14:29:42 | INFO | stdout | {'baichuan2_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116180.591637, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116179.365708, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'baichuan_7B_chat_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116180.591637, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116179.365708, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'embedding_general': {'worker_num': 3, '1': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116163.6739163, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21004, 'worker-address': 'http://122.224.74.10:21004', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}, '2': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116181.3535168, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21007, 'worker-address': 'http://122.224.74.10:21007', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}, '3': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116165.1283758, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21008, 'worker-address': 'http://122.224.74.10:21008', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}}}
+2023-11-16 14:29:47 | INFO | stdout | 1
+2023-11-16 14:29:47 | INFO | stdout | {'baichuan2_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116180.591637, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116179.365708, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'baichuan_7B_chat_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116180.591637, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116179.365708, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'embedding_general': {'worker_num': 3, '1': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116163.6739163, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21004, 'worker-address': 'http://122.224.74.10:21004', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}, '2': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116181.3535168, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21007, 'worker-address': 'http://122.224.74.10:21007', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}, '3': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116165.1283758, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21008, 'worker-address': 'http://122.224.74.10:21008', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}}}
+2023-11-16 14:29:52 | INFO | stdout | 1
+2023-11-16 14:29:52 | INFO | stdout | {'baichuan2_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116180.591637, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116179.365708, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'baichuan_7B_chat_hf': {'worker_num': 2, '1': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116180.591637, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21002, 'worker-address': 'http://122.224.74.10:21002', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '0', 'start_type': 'hf'}}, '2': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116179.365708, 'extend_info': {'model_names': ['baichuan2_hf', 'baichuan_7B_chat_hf'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21003, 'worker-address': 'http://122.224.74.10:21003', 'model-path': '/mnt/sdb/models/Baichuan2-7B-Chat', 'template': None, 'gpus': '1', 'start_type': 'hf'}}}, 'embedding_general': {'worker_num': 3, '1': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116163.6739163, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21004, 'worker-address': 'http://122.224.74.10:21004', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}, '2': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116181.3535168, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21007, 'worker-address': 'http://122.224.74.10:21007', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}, '3': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'check_heart_beat': True, 'last_heart_beat': 1700116165.1283758, 'extend_info': {'model_names': ['embedding_general'], 'speed': 1, 'queue_length': 0, 'host': '122.224.74.10', 'port': 21008, 'worker-address': 'http://122.224.74.10:21008', 'model-path': '/mnt/sdb/models/paraphrase-multilingual-mpnet-base-v2', 'gpus': '3', 'start_type': 'general'}}}}
+2023-11-16 14:31:07 | INFO | controller | args: Namespace(host='122.224.74.10', port=20000, log_dir='/home/xgy/logs', ssl=False, name='local')
+2023-11-16 14:31:07 | INFO | controller | Daemon init sucess
+2023-11-16 14:31:07 | ERROR | stderr | INFO:     Started server process [2212500]
+2023-11-16 14:31:07 | ERROR | stderr | INFO:     Waiting for application startup.
+2023-11-16 14:31:07 | ERROR | stderr | INFO:     Application startup complete.
+2023-11-16 14:31:07 | ERROR | stderr | INFO:     Uvicorn running on http://122.224.74.10:20000 (Press CTRL+C to quit)
+2023-11-16 14:31:27 | INFO | stdout | {'model_name': 'embedding_general', 'host': '122.224.74.10', 'port': 21007}
+2023-11-16 14:31:37 | INFO | stdout | INFO:     122.224.74.10:43552 - "POST /deploy HTTP/1.1" 200 OK
+2023-11-16 15:10:22 | INFO | stdout | INFO:     164.92.230.63:50004 - "GET /?v=1&ip=122.224.74.10&port=20000 HTTP/1.1" 404 Not Found
+2023-11-16 16:17:26 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-16 16:30:36 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-16 16:41:37 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-16 16:53:20 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-16 19:18:30 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-16 19:51:31 | INFO | stdout | INFO:     58.57.119.12:2048 - "GET /gpu_info HTTP/1.1" 200 OK
+2023-11-16 19:57:07 | INFO | deploy_daemon | args: Namespace(host='122.224.74.10', port=20000, log_dir='/home/xgy/logs', ssl=False, name='local')
+2023-11-16 19:57:07 | INFO | deploy_daemon | Daemon init sucess
+2023-11-16 19:57:07 | ERROR | stderr | INFO:     Started server process [2723945]
+2023-11-16 19:57:07 | ERROR | stderr | INFO:     Waiting for application startup.
+2023-11-16 19:57:07 | ERROR | stderr | INFO:     Application startup complete.
+2023-11-16 19:57:07 | ERROR | stderr | INFO:     Uvicorn running on http://122.224.74.10:20000 (Press CTRL+C to quit)
+2023-11-16 22:10:20 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-17 01:08:07 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-17 01:14:33 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-17 01:14:38 | INFO | stdout | INFO:     39.100.71.234:53990 - "GET / HTTP/1.1" 404 Not Found
+2023-11-17 05:27:15 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-17 06:55:46 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-17 07:34:25 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-17 10:17:37 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-17 10:58:16 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-17 12:11:20 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-17 13:44:12 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-17 16:05:20 | INFO | stdout | INFO:     34.140.130.61:54640 - "GET / HTTP/1.1" 404 Not Found
+2023-11-17 16:20:13 | ERROR | stderr | WARNING:  Unsupported upgrade request.
+2023-11-17 16:20:13 | ERROR | stderr | WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+2023-11-17 16:20:13 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-17 20:55:12 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-17 23:16:44 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-18 00:36:19 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-18 00:36:25 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-18 00:36:29 | INFO | stdout | INFO:     162.142.125.13:44642 - "GET / HTTP/1.1" 404 Not Found
+2023-11-18 00:36:33 | INFO | stdout | INFO:     162.142.125.13:49432 - "GET / HTTP/1.1" 404 Not Found
+2023-11-18 00:36:34 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-18 00:45:38 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-18 04:21:46 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-18 06:04:08 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-18 06:16:09 | INFO | stdout | INFO:     103.149.26.249:26264 - "GET / HTTP/1.1" 404 Not Found
+2023-11-18 06:16:09 | INFO | stdout | INFO:     103.149.26.249:26296 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+2023-11-18 07:04:45 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-18 15:12:28 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-18 18:54:10 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-18 18:54:17 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-18 19:22:48 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-18 19:27:02 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-19 01:43:22 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-19 04:56:19 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-19 05:25:35 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-19 06:30:50 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-19 08:22:37 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-19 08:22:44 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-19 08:22:47 | INFO | stdout | INFO:     167.94.138.127:46482 - "GET / HTTP/1.1" 404 Not Found
+2023-11-19 08:22:50 | INFO | stdout | INFO:     167.94.138.127:45008 - "GET / HTTP/1.1" 404 Not Found
+2023-11-19 08:22:51 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-19 16:14:10 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-19 16:38:02 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-19 16:38:09 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-19 16:38:12 | INFO | stdout | INFO:     167.94.138.127:51626 - "GET / HTTP/1.1" 404 Not Found
+2023-11-19 16:38:16 | INFO | stdout | INFO:     167.94.138.127:51270 - "GET / HTTP/1.1" 404 Not Found
+2023-11-19 16:38:17 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-20 01:37:47 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-20 06:25:23 | INFO | stdout | INFO:     42.240.145.70:58898 - "GET / HTTP/1.1" 404 Not Found
+2023-11-20 06:25:23 | INFO | stdout | INFO:     42.240.145.70:58900 - "GET / HTTP/1.1" 404 Not Found
+2023-11-20 11:20:46 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-20 14:22:31 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-20 14:22:32 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-20 17:03:23 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-20 17:03:58 | INFO | stdout | INFO:     36.99.136.128:36673 - "GET / HTTP/1.1" 404 Not Found
+2023-11-20 17:04:08 | INFO | stdout | INFO:     111.7.100.34:52073 - "GET / HTTP/1.1" 404 Not Found
+2023-11-20 17:04:16 | INFO | stdout | INFO:     58.57.119.12:2049 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-20 17:04:16 | INFO | stdout | INFO:     58.57.119.12:2050 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-21 01:07:35 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 06:11:26 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 09:30:12 | INFO | stdout | INFO:     167.248.133.49:58616 - "GET / HTTP/1.1" 404 Not Found
+2023-11-21 09:30:13 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:53:19 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:29 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:30 | INFO | stdout | INFO:     204.48.30.136:38146 - "GET / HTTP/1.0" 404 Not Found
+2023-11-21 19:57:30 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:31 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:31 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:32 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:33 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:33 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:34 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:34 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:35 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:36 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:36 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:38 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:39 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:39 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:40 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:41 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:43 | INFO | stdout | INFO:     23.239.9.139:48742 - "GET / HTTP/1.0" 404 Not Found
+2023-11-21 19:57:43 | INFO | stdout | INFO:     23.239.9.139:48756 - "OPTIONS / HTTP/1.0" 404 Not Found
+2023-11-21 19:57:44 | INFO | stdout | INFO:     23.239.9.139:48760 - "OPTIONS / HTTP/1.0" 404 Not Found
+2023-11-21 19:57:44 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:45 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:46 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:46 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:47 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:47 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:48 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:49 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:51 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:51 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:52 | INFO | stdout | INFO:     23.239.9.139:41726 - "GET /nice%20ports%2C/Trinity.txt.bak HTTP/1.0" 404 Not Found
+2023-11-21 19:57:53 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:53 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:54 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:54 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:55 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:56 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:57 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:57 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:58 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:58 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:57:59 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:58:00 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:58:00 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:58:01 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:58:01 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:58:02 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:58:02 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:58:03 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-21 19:58:03 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-22 00:54:13 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-22 02:53:54 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-22 04:13:06 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-22 10:10:45 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-22 10:34:46 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-22 17:20:54 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-22 17:21:02 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-22 17:21:05 | INFO | stdout | INFO:     167.94.146.58:43484 - "GET / HTTP/1.1" 404 Not Found
+2023-11-22 17:21:09 | INFO | stdout | INFO:     167.94.146.58:40412 - "GET / HTTP/1.1" 404 Not Found
+2023-11-22 17:21:09 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-22 23:59:21 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-23 05:59:52 | INFO | stdout | INFO:     103.20.61.17:34514 - "GET / HTTP/1.1" 404 Not Found
+2023-11-23 06:01:10 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-23 08:19:45 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-23 08:19:57 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-23 08:19:59 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-23 08:20:00 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-23 08:20:01 | INFO | stdout | INFO:     128.14.237.9:38224 - "GET / HTTP/1.1" 404 Not Found
+2023-11-23 08:20:07 | INFO | stdout | INFO:     128.14.237.9:43452 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+2023-11-23 08:20:08 | INFO | stdout | INFO:     128.14.237.9:44372 - "GET /robots.txt HTTP/1.1" 404 Not Found
+2023-11-23 08:20:09 | INFO | stdout | INFO:     128.14.237.9:45236 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+2023-11-23 09:45:24 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-23 09:59:00 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-23 11:36:36 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-23 11:36:42 | INFO | stdout | INFO:     47.92.208.18:54386 - "GET / HTTP/1.1" 404 Not Found
+2023-11-23 11:36:45 | INFO | stdout | INFO:     47.92.208.18:56116 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+2023-11-23 11:36:45 | INFO | stdout | INFO:     47.92.208.18:56190 - "GET /robots.txt HTTP/1.1" 404 Not Found
+2023-11-23 21:43:20 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-23 21:43:27 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-23 21:43:30 | INFO | stdout | INFO:     162.142.125.217:38526 - "GET / HTTP/1.1" 404 Not Found
+2023-11-23 21:43:34 | INFO | stdout | INFO:     162.142.125.217:42534 - "GET / HTTP/1.1" 404 Not Found
+2023-11-23 21:43:34 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-23 23:56:19 | INFO | stdout | INFO:     137.184.206.34:40632 - "GET /?v=1&ip=122.224.74.10&port=20000 HTTP/1.1" 404 Not Found
+2023-11-24 01:21:21 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-24 01:56:54 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-24 03:45:41 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-24 09:00:45 | INFO | stdout | INFO:     42.240.131.249:38144 - "GET / HTTP/1.1" 404 Not Found
+2023-11-24 09:00:45 | INFO | stdout | INFO:     42.240.131.249:38146 - "GET / HTTP/1.1" 404 Not Found
+2023-11-24 10:14:19 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-24 12:18:39 | INFO | stdout | INFO:     104.248.138.237:55370 - "GET /?v=1&ip=122.224.74.10&port=20000 HTTP/1.1" 404 Not Found
+2023-11-24 16:23:57 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-24 16:23:57 | INFO | stdout | INFO:     183.136.225.31:46272 - "GET / HTTP/1.1" 404 Not Found
+2023-11-24 16:23:57 | INFO | stdout | INFO:     183.136.225.31:28900 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+2023-11-24 16:23:57 | INFO | stdout | INFO:     183.136.225.31:41430 - "GET /robots.txt HTTP/1.1" 404 Not Found
+2023-11-24 19:21:02 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-24 19:21:03 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-24 22:03:59 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-25 00:06:30 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-25 03:13:23 | INFO | stdout | INFO:     137.184.152.40:51192 - "GET /?v=1&ip=122.224.74.10&port=20000 HTTP/1.1" 404 Not Found
+2023-11-25 06:25:03 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-25 06:25:20 | INFO | stdout | INFO:     111.7.96.181:30722 - "GET / HTTP/1.1" 404 Not Found
+2023-11-25 06:25:56 | INFO | stdout | INFO:     36.99.136.137:18237 - "GET / HTTP/1.1" 404 Not Found
+2023-11-25 09:31:47 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-25 13:52:01 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-25 13:52:08 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-25 13:52:11 | INFO | stdout | INFO:     167.248.133.51:32940 - "GET / HTTP/1.1" 404 Not Found
+2023-11-25 13:52:15 | INFO | stdout | INFO:     167.248.133.51:51360 - "GET / HTTP/1.1" 404 Not Found
+2023-11-25 13:52:15 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-25 15:36:17 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-25 16:20:14 | INFO | stdout | INFO:     34.76.158.233:42482 - "GET / HTTP/1.1" 404 Not Found
+2023-11-25 18:54:26 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-25 19:32:16 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-25 22:37:38 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-26 01:31:04 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-26 04:30:54 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-26 04:55:46 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-26 04:55:48 | INFO | stdout | INFO:     185.180.143.142:40892 - "GET / HTTP/1.1" 404 Not Found
+2023-11-26 09:07:51 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-26 09:08:07 | INFO | stdout | INFO:     87.236.176.210:45715 - "GET / HTTP/1.1" 404 Not Found
+2023-11-26 10:16:11 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-26 10:16:20 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-26 10:16:23 | INFO | stdout | INFO:     167.94.138.35:46772 - "GET / HTTP/1.1" 404 Not Found
+2023-11-26 10:16:27 | INFO | stdout | INFO:     167.94.138.35:60480 - "GET / HTTP/1.1" 404 Not Found
+2023-11-26 10:16:27 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-26 12:29:15 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-26 12:29:21 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-26 12:29:25 | INFO | stdout | INFO:     167.94.145.58:56302 - "GET / HTTP/1.1" 404 Not Found
+2023-11-26 12:29:28 | INFO | stdout | INFO:     167.94.145.58:60936 - "GET / HTTP/1.1" 404 Not Found
+2023-11-26 12:29:29 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-26 15:02:43 | INFO | stdout | INFO:     223.113.128.189:40682 - "GET / HTTP/1.1" 404 Not Found
+2023-11-26 15:02:44 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-26 15:02:44 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-26 16:40:07 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-26 17:29:16 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-26 18:19:01 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-26 18:41:41 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-26 18:41:41 | INFO | stdout | INFO:     143.110.226.114:43632 - "GET / HTTP/1.1" 404 Not Found
+2023-11-26 18:43:23 | INFO | stdout | INFO:     106.75.7.41:47738 - "GET / HTTP/1.1" 404 Not Found
+2023-11-26 18:43:23 | INFO | stdout | INFO:     106.75.7.41:47744 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+2023-11-26 18:43:23 | INFO | stdout | INFO:     106.75.7.41:47748 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+2023-11-26 18:43:23 | INFO | stdout | INFO:     106.75.7.41:47746 - "GET /robots.txt HTTP/1.1" 404 Not Found
+2023-11-27 00:54:07 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-27 02:29:47 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-27 07:13:26 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-27 07:13:33 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-27 07:13:36 | INFO | stdout | INFO:     167.248.133.34:54102 - "GET / HTTP/1.1" 404 Not Found
+2023-11-27 07:13:40 | INFO | stdout | INFO:     167.248.133.34:33086 - "GET / HTTP/1.1" 404 Not Found
+2023-11-27 07:13:40 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-27 07:27:57 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-27 07:27:57 | INFO | stdout | INFO:     183.136.225.31:30596 - "GET / HTTP/1.1" 404 Not Found
+2023-11-27 07:27:57 | INFO | stdout | INFO:     183.136.225.31:29136 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+2023-11-27 07:27:57 | INFO | stdout | INFO:     183.136.225.31:12072 - "GET /robots.txt HTTP/1.1" 404 Not Found
+2023-11-27 10:00:57 | INFO | stdout | INFO:     95.214.53.103:33834 - "GET / HTTP/1.1" 404 Not Found
+2023-11-27 10:35:56 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-27 11:01:33 | INFO | stdout | INFO:     106.75.135.88:22348 - "POST /token HTTP/1.1" 404 Not Found
+2023-11-27 12:48:28 | INFO | stdout | INFO:     180.149.125.163:32065 - "GET / HTTP/1.1" 404 Not Found
+2023-11-27 13:19:32 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-27 13:20:21 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-27 13:20:57 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-27 13:21:41 | INFO | stdout | INFO:     106.3.146.201:56649 - "GET / HTTP/1.1" 404 Not Found
+2023-11-27 13:21:44 | INFO | stdout | INFO:     106.3.146.201:56649 - "GET / HTTP/1.1" 404 Not Found
+2023-11-27 13:21:47 | INFO | stdout | INFO:     106.3.146.201:56649 - "GET / HTTP/1.1" 404 Not Found
+2023-11-27 18:30:46 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-27 19:17:37 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-27 20:04:14 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-27 22:52:51 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-28 00:36:29 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-28 02:49:16 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-28 06:30:55 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-28 08:48:09 | INFO | stdout | INFO:     95.214.53.103:57990 - "GET / HTTP/1.1" 404 Not Found
+2023-11-28 13:06:03 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-28 13:06:09 | INFO | stdout | INFO:     36.99.136.128:9271 - "GET / HTTP/1.1" 404 Not Found
+2023-11-28 13:06:09 | INFO | stdout | INFO:     36.99.136.129:36940 - "GET / HTTP/1.1" 404 Not Found
+2023-11-28 16:34:53 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-28 17:34:58 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-28 18:30:14 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-29 01:05:07 | INFO | stdout | INFO:     101.42.139.145:33270 - "GET / HTTP/1.1" 404 Not Found
+2023-11-29 01:06:26 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-29 03:48:22 | INFO | stdout | INFO:     162.142.125.217:46700 - "GET / HTTP/1.1" 404 Not Found
+2023-11-29 03:48:22 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-29 11:35:12 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-29 11:35:29 | INFO | stdout | INFO:     87.236.176.246:59591 - "GET / HTTP/1.1" 404 Not Found
+2023-11-29 14:31:03 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-29 18:34:21 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-29 20:11:18 | INFO | stdout | INFO:     122.224.74.10:36940 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-29 20:11:36 | INFO | stdout | INFO:     122.224.74.10:35874 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-29 20:28:17 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-29 20:28:18 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-29 20:50:00 | INFO | stdout | INFO:     122.224.74.10:41292 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-29 20:50:00 | INFO | stdout | INFO:     122.224.74.10:41298 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-29 20:53:14 | INFO | stdout | INFO:     122.224.74.10:55976 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-29 20:53:14 | INFO | stdout | INFO:     122.224.74.10:55984 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 02:43:34 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-30 02:43:35 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-30 05:42:25 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-30 08:49:23 | INFO | stdout | INFO:     95.214.53.103:33960 - "GET / HTTP/1.1" 404 Not Found
+2023-11-30 09:07:40 | ERROR | stderr | WARNING:  Invalid HTTP request received.
+2023-11-30 11:52:57 | INFO | stdout | INFO:     122.224.74.10:35934 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 11:52:57 | INFO | stdout | INFO:     122.224.74.10:35948 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 11:53:52 | INFO | stdout | INFO:     122.224.74.10:37252 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 11:53:52 | INFO | stdout | INFO:     122.224.74.10:37266 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 11:57:11 | INFO | stdout | INFO:     122.224.74.10:42060 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 11:57:11 | INFO | stdout | INFO:     122.224.74.10:42070 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 12:00:23 | INFO | stdout | INFO:     122.224.74.10:34070 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 12:00:23 | INFO | stdout | INFO:     122.224.74.10:34072 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 12:00:30 | INFO | stdout | INFO:     122.224.74.10:34084 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 12:00:30 | INFO | stdout | INFO:     122.224.74.10:34086 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 12:01:27 | INFO | stdout | INFO:     122.224.74.10:57666 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 12:01:27 | INFO | stdout | INFO:     122.224.74.10:57670 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 12:01:33 | INFO | stdout | INFO:     122.224.74.10:57678 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 12:01:33 | INFO | stdout | INFO:     122.224.74.10:57694 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 12:03:41 | INFO | stdout | INFO:     122.224.74.10:47310 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 12:03:41 | INFO | stdout | INFO:     122.224.74.10:47316 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 12:04:14 | INFO | stdout | INFO:     122.224.74.10:48048 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 12:04:14 | INFO | stdout | INFO:     122.224.74.10:48064 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 12:04:18 | INFO | stdout | INFO:     122.224.74.10:48076 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 12:04:18 | INFO | stdout | INFO:     122.224.74.10:48086 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 12:56:31 | INFO | stdout | INFO:     122.224.74.10:34840 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 12:56:31 | INFO | stdout | INFO:     122.224.74.10:34844 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 12:56:43 | INFO | stdout | INFO:     122.224.74.10:59576 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 12:56:43 | INFO | stdout | INFO:     122.224.74.10:59586 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 13:20:24 | INFO | stdout | INFO:     122.224.74.10:51930 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 13:20:24 | INFO | stdout | INFO:     122.224.74.10:51944 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 13:31:20 | INFO | stdout | INFO:     122.224.74.10:48012 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 13:31:20 | INFO | stdout | INFO:     122.224.74.10:48026 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 13:32:05 | INFO | stdout | INFO:     122.224.74.10:51818 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 13:32:05 | INFO | stdout | INFO:     122.224.74.10:51822 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 13:54:06 | INFO | stdout | INFO:     122.224.74.10:58038 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 13:54:06 | INFO | stdout | INFO:     122.224.74.10:58052 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 13:54:17 | INFO | stdout | INFO:     122.224.74.10:49856 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 13:54:17 | INFO | stdout | INFO:     122.224.74.10:49872 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 14:02:02 | INFO | stdout | INFO:     122.224.74.10:60916 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 14:02:02 | INFO | stdout | INFO:     122.224.74.10:60928 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 14:18:27 | INFO | stdout | INFO:     122.224.74.10:50320 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 14:18:27 | INFO | stdout | INFO:     122.224.74.10:50336 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 14:27:48 | INFO | stdout | INFO:     122.224.74.10:39704 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 14:27:48 | INFO | stdout | INFO:     122.224.74.10:39716 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 14:46:12 | INFO | stdout | INFO:     122.224.74.10:59140 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 14:46:12 | INFO | stdout | INFO:     122.224.74.10:59144 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 14:46:15 | INFO | stdout | INFO:     122.224.74.10:43402 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 14:46:15 | INFO | stdout | INFO:     122.224.74.10:43408 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 14:48:46 | INFO | stdout | INFO:     122.224.74.10:44620 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 14:48:46 | INFO | stdout | INFO:     122.224.74.10:44636 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 14:52:32 | INFO | stdout | INFO:     122.224.74.10:60710 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 14:52:32 | INFO | stdout | INFO:     122.224.74.10:60720 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 14:52:35 | INFO | stdout | INFO:     122.224.74.10:56614 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 14:52:35 | INFO | stdout | INFO:     122.224.74.10:56616 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 14:55:39 | INFO | stdout | INFO:     122.224.74.10:41884 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 14:55:39 | INFO | stdout | INFO:     122.224.74.10:41898 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
+2023-11-30 15:04:44 | INFO | stdout | INFO:     122.224.74.10:59254 - "GET /heartbeat HTTP/1.1" 200 OK
+2023-11-30 15:04:44 | INFO | stdout | INFO:     122.224.74.10:59270 - "POST /deploy HTTP/1.1" 422 Unprocessable Entity
